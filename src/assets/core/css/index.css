@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('~@mohamadtsn/fontawesome-icon/dist/css/all.min.css');
+@import url('react-loading-skeleton/dist/skeleton.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .loader {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        height: 100vh;
+    }
+    body {
+        @apply bg-gradient-to-r from-indigo-300 to-purple-400
+    }
+}
+
+
